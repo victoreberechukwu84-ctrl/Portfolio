@@ -1,0 +1,322 @@
+
+* {
+    margin:0; 
+    padding:0; 
+    
+}
+ 
+  html{
+     scroll-behavior: smooth; 
+    }
+
+  .header{
+    width: 100%;
+    height: 100dvh;   
+
+    background-image: url(./img/pexels-regeci-9115509.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-position-y: center;    
+    
+    padding-left: 50px;
+    padding-top:10px ;
+    padding-bottom:60px; 
+}
+
+nav{
+    
+
+    display: flex;
+    flex-direction: row;
+
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.nav_options {
+    width:100%;
+
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+     
+    justify-content:right;
+    gap: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+nav ul:first-child{
+    margin-right: auto;
+}
+.submit{
+    color: #ffffff;
+
+    border: none;
+    border-radius: 100px;
+
+    background-color: #153515;
+
+    padding-top:8px;
+    padding-bottom: 8px;
+    padding-left:20px;
+    padding-right:20px;
+
+}
+
+h2{
+    margin-top: 90px;
+    color: #fff;
+}
+
+h1{
+  font-size: 4rem;
+  font-family:'poppins', sans-serif;
+  
+  color: transparent;
+  -webkit-text-stroke: 1px  #71d30f;
+}
+
+p{
+    margin-top: 10px;
+    color: #fff;
+}
+
+.btn{ 
+    margin-top: 30px;
+
+    border:none;
+    border-radius:100px ;
+
+    color: #fff;
+    background-color: #71d30f;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+}
+
+.btn-primary{
+    margin-top: 30px;
+
+    border-radius: 100px;
+    border: 0.5px solid #ffffff;
+
+
+    color: #ffffff;
+
+   background-color: #00000010;
+   backdrop-filter: blur(10px);
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+.article{
+    width:100%;
+    height:100%;
+    
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+
+    
+    background-size:cover;
+}
+
+h4{
+    margin-bottom: 10px;
+
+    color:#8a8888;
+
+    font-size: small;
+}
+
+.text-box{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Georgia;
+
+    color: #252525;
+}
+
+small{
+    color: #8a8888;
+
+    font-size: small;
+    
+}
+
+#btn-x{
+    width: fit-content;
+    height: fit-content;
+
+    border: none;
+    
+    border-radius: 100px;
+    background-color: #275727;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left:20px ;
+    padding-right:20px ;
+
+    color: #ffffff;
+    
+}
+#btn-secondary{
+    width: fit-content;
+    height: fit-content;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left:20px;
+    padding-right:20px;
+
+    color: #ffffff;
+
+    border: none;
+    border-radius: 100px;
+    background-color: #153515;
+}
+
+
+#img{
+    width: 50%;
+    height: 100%;
+
+    position:relative;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.expertise_box {
+
+    align-self: center;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    /* justify-content: space-between; */
+    justify-content: space-between;
+}
+.logo{
+    margin-bottom: 25px;
+    gap: 30px;
+
+    display: flex;
+    flex-direction: row;
+}
+.icon{
+    margin-top: 2px;
+}
+
+.first-row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.first-box{
+    display: flex;
+    flex-direction: row;
+}
+.second-box{
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+}
+.second-row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.third-box{
+    display: flex;
+    flex-direction: row;
+}
+.fourth-box{
+    display: flex;
+    flex-direction: row;
+    margin-left: 28px;
+}
+.vic{
+    color: #8a8888;
+}
+
+.article-2{
+    width: 100%;    
+    height: 100%;
+
+    padding: 100px;
+
+    background-color: #e2e2e2;
+    background-size: cover;
+
+}
+.text{
+    color: grey;
+    margin-left: 20px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+.first-clip{
+    display: flex;
+}
+.second-clip{
+    display: flex;
+    flex-direction: row;
+}
+.third-clip{
+    display: flex;
+    flex-direction: row;
+}
+.design{
+    margin-left: 40px;
+}
+.customer{
+    margin-left: 40px;
+}
+.psd{
+    margin-left: 40px;
+}
+
+li{
+    list-style: none;
+}
+.article-4{
+  
+    
+   
+
+}
+.title{
+    text-align: center;
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px ;
+   
+}
+.gallery img{
+   
+    border-radius: 10px;
+}
